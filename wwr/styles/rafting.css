@@ -30,10 +30,11 @@ body {
 h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    padding: 20px 0px;
 }
 
 main p {
-    padding: 25px;
+    padding: 5px;
 
 }
 
@@ -75,6 +76,7 @@ footer img {
     left: 10px;
     right: 10px;
     color: var(--primary-color);
+    padding: 5px;
 }
 
 .hero article img {
