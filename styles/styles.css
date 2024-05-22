@@ -16,7 +16,7 @@ header, footer, .grid{
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #25455F;
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -33,15 +33,15 @@ nav a {
 }
 
 h1{
-    color: steelblue;
+    color: #25455F;
     padding: .5rem;
-    border-bottom: 1px solid steelblue;
+    border-bottom: 1px solid #25455F;
 }
 
 main img{
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #25455F;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -86,6 +86,11 @@ footer{
     color: #112A46;
 }
 
+.box a {
+    color: #0B006B;
+    text-decoration: none;
+}
+
 .indent {
     padding-left: 2rem;
     clear: right;
@@ -95,4 +100,5 @@ footer{
     display: grid;
     grid-template-columns: auto 2fr;
     align-items: center;
+
 }
