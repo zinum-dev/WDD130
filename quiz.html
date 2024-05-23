@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | Quiz</title>
-    <meta name="description" content="A html quiz.">
+    <meta name="description" content="A html and css quiz.">
     <meta name="author" content="André Muniz">
     <link rel="stylesheet" href="styles/quiz.css">
 
@@ -16,25 +16,26 @@
     <main>
         <form>
             <fieldset>
-                <div class="form-item column2">
-                    <label for="q1">Full Name:</label>
+                <div class="form-item">
+                    <label for="q1"><strong>1.</strong>What does HTML stand for?</label>
                     <input type="text" id="q1" name="q1">
                 </div>
-                <div>
-                    <label for="q2">List the places you have lived:</label>
-                    <textarea name="q2" id="q2" rows="4" placeholder="zzzzz"></textarea>
+                <div class="form-item">
+                    <label for="q2"><strong>2.</strong>What is the purpose of the '&lt;div&gt;' element in HTML?</label>
+                    <textarea name="q2" id="q2" rows="4" placeholder="The purpose is ..."></textarea>
                 </div>
-                <div class="form-item column1">
-                    <label for="q3">What is your favorite browser?"</label>
+                <div class="form-item">
+                    <label for="q3"><strong>3.</strong>Choose the appropriate CSS property for adjusting the spacing between paragraphs."</label>
                     <select name="q3" id="q3">
-                        <option value="chrome">Chrome</option>
-                        <option value="edge">Edge</option>
-                        <option value="firefox">Firefox</option>
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="line-height">line-height</option>
+                        <option value="margin">margin</option>
+                        <option value="padding">padding</option>
+                        <option value="spacing">spacing</option>
                     </select>
                 </div>
-                
-                <div class="form-item column2">
-                    <label for="q4">Email:</label>
+                <div class="form-item">
+                    <label for="q4"><strong>4.</strong>What is the default font size in pixels in CSS for most web browsers?</label>
                     <input type="number" name="q4" id="q4">
                 </div>
             </fieldset>
