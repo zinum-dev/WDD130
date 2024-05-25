@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <!--Wireframe  https://app.moqups.com/bxaRw4lDd4onNtQQq4R2b17Kt0vmyCK4/view/page/ad12de680-->
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Life Adventures Contact</title>
     <meta name="description" content="An contact webpage for rafting project."/>
@@ -48,7 +48,6 @@
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1483.2101706178962!2d-82.76339166446445!3d27.85012322569987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1716511315386!5m2!1sen!2sbr"
               width="600"
               height="450"
-              style="border: 0"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
@@ -100,27 +99,27 @@
             />
           </div>
           <div class="form-item">
-            <label>What is your message for</label>
+            <label for="radio">What is your message for</label>
             <div class="input-radio">
-              <input type="radio" name="option" value="General Inquiry" />
-              General Inquiry
+              <input type="radio" name="option" id="option1" value="General Inquiry" />
+              <label for="option1">General Inquiry</label>
             </div>
             <div class="input-radio">
-              <input type="radio" name="option" value="Reservation Question" />
-              Reservation Question
+              <input type="radio" name="option" id="option2" value="Reservation Question" />
+              <label for="option2">Reservation Question</label>
             </div>
             <div class="input-radio">
-              <input type="radio" name="option" value="Website Suggestion" />
-              Website Suggestion
+              <input type="radio" name="option" id="option3" value="Website Suggestion" />
+              <label for="option3">Website Suggestion</label>
             </div>
           </div>
           <div class="form-item text-message">
-            <label class="form-item" for="places">Message</label>
-            <textarea name="places" id="places" rows="6"></textarea>
+            <label class="form-item" for="msg">Message</label>
+            <textarea name="msg" id="msg" rows="6"></textarea>
           </div>
           <div class="form-item">
-            <input type="checkbox" name="pet" id="pet" />
-            <label for="pet">
+            <input type="checkbox" name="sub" id="sub" />
+            <label for="sub">
               Please subscribe me to the monthly newsletter
             </label>
           </div>
