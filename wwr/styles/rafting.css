@@ -111,7 +111,6 @@ footer img {
     position: relative;
     margin-bottom: 10px;
     text-align: center;
-    
 }
 
 .hero img {
@@ -120,7 +119,7 @@ footer img {
     height: auto;
 }
 
-.hero h1 {
+.hero-h1 {
     position: absolute;
     top: 20px;
     left: 100px;
@@ -129,6 +128,16 @@ footer img {
     padding-inline: 8px;
     border-radius: 25px;
     box-shadow: 11px 8px 20px 1px var(--nav-hover-background-color);
+}
+
+.home-h1{
+    position: absolute;
+    top: 20px;
+    margin-inline: 20%;
+    
+    background-color: var(--nav-hover-background-color);
+    padding: 0px;
+    padding-inline: 8px;
 }
 
 .hero article {
@@ -285,11 +294,46 @@ form label {
 
 }
 
-form button {
+.form-button {
     margin: auto;
     padding: .5rem 2rem;
     background-color: #29323D;
     color: #FFF;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 180px;
+    margin: 25px 0;
+    align-items: center;
+}
+
+.home-discover{
+    display: grid;
+    padding: 10px;
+}
+
+.home-discover a{
+    justify-self: end;
+    padding: 0 10px;
+}
+
+.home-grid h2{
+    padding: 10px;
+    text-align: justify;
+}
+
+.home-grid img{
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.home-grid p{
+    padding: 10px;
+    text-align: center;
 }
